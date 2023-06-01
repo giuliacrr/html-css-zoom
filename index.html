@@ -13,18 +13,96 @@
   <title>Zoomando</title>
 </head>
 
-<body>
-  <!--Header-->
-  <header>
-    <div></div>
+<body class="flex">
+
+  <header><!--Header-->
+    <div class="viewbuttons flex">
+      <button class="speak-viewb" type="button"><i class="fa-solid fa-table-cells-large"></i> Speaker View</button>
+      <button class="speak-viewb" type="button"><i class="fa-solid fa-maximize"></i></button>
+    </div>
   </header>
-  <!--Main-->
-  <main>
-    <div></div>
+
+  <main><!--Main-->
+    <div class="content">
+      <div class="user"></div>
+    </div>
   </main>
-  <!--Footer-->
-  <footer>
-    <div></div>
+
+  <footer class="flex"><!--Footer-->
+    <div class="button-container"><!--LEFT-->
+      <div>
+        <div class="flex left-buttons">
+          <!--Microphone-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-microphone"></i><br>Mute</div>
+          </div>
+          <div class="icon-distance">
+            <div><i class="chevron fa-solid fa-chevron-up"></i></div>
+          </div>
+          <!--Camera-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-video"></i><br>Stop Video</div>
+          </div>
+          <div>
+            <div><i class="chevron fa-solid fa-chevron-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MIDDLE SIDE-->
+    <div class="button-container"><!--MIDDLE-->
+      <div>
+        <div class="flex left-buttons">
+          <!--Invite-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-user-plus"></i><br>Invite+</div>
+          </div>
+          <!--Manage Partecipants-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-user-group"></i><br>Manage</div>
+          </div>
+          <!--Polling-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-chart-column"></i><br>Polling</div>
+          </div>
+          <!--Share Screen-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-share-from-square""></i><br>Share Screen</div>
+          </div>
+          <div>
+            <div><i class=" chevron fa-solid fa-chevron-up"></i>
+            </div>
+          </div>
+          <!--Chat-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-comment"></i><br>Chat</div>
+          </div>
+          <!--Record-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-record-vinyl"></i><br>Record</div>
+          </div>
+          <!--Breakout Rooms-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-table-cells-large"></i><br>Rooms</div>
+          </div>
+          <!--More-->
+          <div>
+            <div class="icon-txt"><i class="icon-size fa-solid fa-ellipsis"></i><br>More</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--RIGHT SIDE-->
+    <div class="button-container"><!--RIGHT-->
+      <div>
+        <div class="flex left-buttons">
+          <!--ENDCALL-->
+          <div>
+            <div class="icon-txt"><button class="endcall" type="button">Leave meeting</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 
