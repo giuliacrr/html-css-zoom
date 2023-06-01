@@ -31,6 +31,10 @@ body {
   font-weight: 600;
 }
 
+.speak-viewb:hover {
+  cursor:pointer;
+}
+
 /*----------------------------------MAIN----------------------------------*/
 main {
   flex-grow:1;
@@ -38,28 +42,43 @@ main {
   overflow: auto;
   height:1400px;
   padding-top:30px;
+  padding-bottom:30px;
 }
 
 .content {
-  height:1200px;
+  width:90%;
+  margin:auto;
+  display:flex;
+
+  flex-wrap:wrap;
+  gap:15px 10px;
 }
 
 .user {
-  width:250px;
-  height:150px;
-  background-color: yellowgreen;
-  border: 1px dashed rgb(83, 83, 83);
-  
+  width:230px;
+  height:140px;
+  background-image: url("../img/userpic.jpg");
+  position:relative;
 }
+
+.username {
+  background-color: rgba(0, 0, 0, 0.4);
+  color:white;
+  padding:5px;
+  font-size:0.8rem;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+
 
 /*----------------------------------FOOTER----------------------------------*/
 footer {
-  border: 1px dashed rgb(83, 83, 83);
   justify-content: space-between;
   color:white;
   background-color: #222222;
 }
-
 
 .left-buttons {
   padding:20px;
@@ -86,8 +105,6 @@ footer {
 .endcall:hover {
   cursor:pointer;
 }
-
-
 
 .chevron {
   padding-left:10px;
